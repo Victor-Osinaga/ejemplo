@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.675);
+    color: white;
+}
+
+main{
+    padding: 50px 20px;
+}
+
+section{
+    margin-bottom: 120px;
+    min-height: 100vh;
+    padding: 50px 20px;
+}
+
+section h3{
+    color: black;
+    margin-bottom: 20px;
+}
+
+.navbar{
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    transition: background 1s ease;
+    /* background: rgba(0, 0, 0, 0.184); */
+}
+
+.navbar > div{
+    display: flex;
+    justify-content: space-around;
+    /* gap: 20px; */
+    align-items: center;
+    height: 100%;
+    align-items: center;
+}
+
+.navbar > div a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
